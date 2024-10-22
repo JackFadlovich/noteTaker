@@ -1,35 +1,53 @@
-This is an application to make and save notes.
-Type in a title and description for your note and it will be saved to the side bar. 
+# Note Taker
 
-Link to deployed application: https://notetaker-yanp.onrender.com
+## Table of Contents
 
+- [Description](#description)
+- [Demo](#demo)
+- [Technologies Used](#technologies-used)
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-![alt text](image.png)
+## Description
 
+This is a **Note Taker** application that allows users to create, save, and delete notes. It's designed to help users keep track of tasks and manage information effectively. The application is built using an Express.js backend and saves notes to a JSON file. The user can write notes with a title and body and view saved notes on the same page.
 
+## Demo
 
+You can view the deployed application here:  
+[Live Demo](https://notetaker-yanp.onrender.com)
 
+## Technologies Used
 
+- **Frontend:**
+  - HTML / CSS / JavaScript
+  - Bootstrap (for styling)
 
-Criteria:
+- **Backend:**
+  - Node.js
+  - Express.js
 
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
+## Features
 
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
+- **Create Notes**: Users can write a note by entering a title and body text.
+- **Save Notes**: Notes can be saved and retrieved later from a list on the left-hand side of the page.
+- **Delete Notes**: Users can delete notes once they are no longer needed.
+- **Responsive UI**: The application is responsive and works on various screen sizes.
 
+## Installation
 
-Thanks to Patrick Quirk for helping
+To set up the project locally, follow these steps.
+
+### Prerequisites
+
+Ensure you have **Node.js** and **npm** installed on your machine.
+
+### Installation Steps
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/JackFadlovich/noteTaker.git
